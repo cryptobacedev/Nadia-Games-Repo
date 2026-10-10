@@ -1,39 +1,24 @@
 {
- "version": 1,
- "site": {
-  "games": "/p/nadia-games_01891329844.html",
-  "chat": "/p/gist-with-nadia.html",
-  "share": "https://www.nadiagist247.com/p/nadia-games_01891329844.html"
- },
- "dailyCount": 10,
- "daily": [
-  "nigeria",
-  "sports",
-  "entertainment",
-  "world",
-  "facts",
-  "riddles",
-  "kids"
- ],
- "difficulty": {
-  "easy": { "label": "Easy", "icon": "🌱", "desc": "Relaxed. No timer.", "timer": 0, "ramp": [1,1,1,2,1,2,2,1,2,2] },
-  "level": { "label": "Level", "icon": "📈", "desc": "Gets harder as you go.", "timer": 20, "ramp": [1,2,2,3,3,3,4,4,5,5] },
-  "pro": { "label": "Pro", "icon": "🔥", "desc": "Hard questions. Short timer.", "timer": 12, "ramp": [3,4,4,4,4,5,5,5,5,5] }
- },
- "modes": {
-  "quiz": { "label": "Quiz", "icon": "❓", "desc": "10 questions. Pick the right answer.", "count": 10 },
-  "speed": { "label": "Speed Round", "icon": "⚡", "desc": "As many as you can in 60 seconds.", "seconds": 60 },
-  "tf": { "label": "True or False", "icon": "✅", "desc": "10 quick true or false questions.", "count": 10, "timer": 8 },
-  "riddle": { "label": "Riddles", "icon": "🧩", "desc": "8 riddles to crack.", "count": 8 },
-  "memory": { "label": "Memory Match", "icon": "🃏", "desc": "Find all the matching pairs." }
- },
- "categories": [
-  { "id": "brain", "label": "Brain", "icon": "🧠", "desc": "General knowledge, logic & riddles", "files": ["facts","riddles"], "modes": ["quiz","speed","tf","riddle","memory"] },
-  { "id": "nigeria", "label": "Nigeria", "icon": "🇳🇬", "desc": "History, culture, places & people", "files": ["nigeria"], "modes": ["quiz","speed","tf"] },
-  { "id": "sports", "label": "Sports", "icon": "⚽", "desc": "Football, basketball, tennis & more", "files": ["sports"], "modes": ["quiz","speed","tf"] },
-  { "id": "entertainment", "label": "Entertainment", "icon": "🎵", "desc": "Music, movies, TV & celebrities", "files": ["entertainment"], "modes": ["quiz","speed","tf"] },
-  { "id": "world", "label": "World", "icon": "🌍", "desc": "Countries, science & amazing facts", "files": ["world","facts"], "modes": ["quiz","speed","tf"] },
-  { "id": "kids", "label": "Kids", "icon": "👶", "kids": true, "desc": "Animals, colours, numbers & more", "files": ["kids"], "modes": ["quiz","memory"] },
-  { "id": "puzzles", "label": "Puzzles", "icon": "🧩", "desc": "Riddles, patterns & word games", "files": ["riddles"], "modes": ["riddle","quiz","speed","memory"] }
- ]
+  "version": 1,
+  "site": {
+    "games": "/p/nadia-games.html",
+    "chat": "/p/gist-with-nadia.html",
+    "share": "https://www.nadiagist247.com/p/nadia-games.html"
+  },
+  "dailyCount": 10,
+  "daily": ["nigeria","sports","entertainment","world","facts","kids","riddles"],
+  "difficulty": {
+    "easy": {"label":"Easy","icon":"😊","desc":"Relaxed. No timer.","timer":0,"ramp":[1,1,1,2,1,2,2,1,2,2]},
+    "level": {"label":"Level","icon":"⚡","desc":"Gets harder as you go.","timer":20,"ramp":[1,2,2,3,3,3,4,4,5,5]},
+    "pro": {"label":"Pro","icon":"🔥","desc":"Hard questions. Short timer.","timer":12,"ramp":[3,4,4,4,4,5,5,5,5,5]}
+  },
+  "categories": [
+    {"id":"nigeria","label":"Nigeria","icon":"🇳🇬","desc":"History, culture, places & people","files":["nigeria"],"modes":["quiz","speed","tf"]},
+    {"id":"sports","label":"Sports","icon":"⚽","desc":"Football, basketball, tennis & more","files":["sports"],"modes":["quiz","speed","tf"]},
+    {"id":"entertainment","label":"Entertainment","icon":"🎵","desc":"Music, movies, TV & celebrities","files":["entertainment"],"modes":["quiz","speed","tf"]},
+    {"id":"world","label":"World","icon":"🌍","desc":"Countries, science & amazing facts","files":["world","facts"],"modes":["quiz","speed","tf"]},
+    {"id":"brain","label":"Brain","icon":"🧠","desc":"General knowledge & riddles","files":["facts","riddles"],"modes":["quiz","speed","tf","riddle"]},
+    {"id":"kids","label":"Kids","icon":"👶","kids":true,"desc":"Animals, colours, numbers & more","files":["kids"],"modes":["quiz","memory"]},
+    {"id":"puzzles","label":"Puzzles","icon":"🧩","desc":"Riddles & word games","files":["riddles"],"modes":["riddle","quiz","memory"]}
+  ]
 }
